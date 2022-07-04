@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9b63ee</color>
+    <color name="colorPrimaryDark">#9b63ee</color>
+    <color name="colorAccent">#9b63ee</color>
+
+    <color name="colorAo1">#ff5f9f</color>
+    <color name="colorAo2">#3be4a6</color>
+    <color name="colorAo3">#2d88f5</color>
+    <color name="colorAo4">#ade554</color>
+    <color name="colorAo5">#ff8400</color>
+    <color name="colorAo6">#60b294</color>
+    <color name="colorAo7">#cb1bff</color>
+
+    <color name="colorQQMusic">#31c27c</color>
+
+    <color name="colorText">#4C5765</color>
+
+    <color name="color_star_bg">#12121F</color>
+
+</resources>
