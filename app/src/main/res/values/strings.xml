@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">jlpt</string>
+    <string name="app_name">JLPT</string>
+
+    <string name="jlpt_test">日本能力考真题 JLPT</string>
+
+    <string name="test_n1">N1</string>
+    <string name="test_n2">N2</string>
+    <string name="test_n3">N3</string>
+    <string name="test_n4">N4</string>
+    <string name="test_n5">N5</string>
+
+    <string name="exam">真题：(%1$d)</string>
 </resources>
