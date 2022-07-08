@@ -1,19 +1,21 @@
 package org.kuro.jlpt;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
-import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import org.kuro.jlpt.base.BaseUIActivity;
+import org.kuro.jlpt.ui.QuestionActivity;
 
 public class MainActivity extends BaseUIActivity {
 
-    private LinearLayout n1Row;
-    private LinearLayout n2Row;
-    private LinearLayout n3Row;
-    private LinearLayout n4Row;
-    private LinearLayout n5Row;
+    private RelativeLayout n1Row;
+    private RelativeLayout n2Row;
+    private RelativeLayout n3Row;
+    private RelativeLayout n4Row;
+    private RelativeLayout n5Row;
 
     private TextView n1RowCount;
     private TextView n2RowCount;
@@ -49,5 +51,9 @@ public class MainActivity extends BaseUIActivity {
         n3RowCount.setText("真题：" + 0);
         n4RowCount.setText("真题：" + 0);
         n5RowCount.setText("真题：" + 0);
+
+        n1Row.setOnClickListener(view -> {
+            startActivity(new Intent(this, QuestionActivity.class));
+        });
     }
 }

@@ -14,10 +14,10 @@ public class BaseBackActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        //显示返回键
+        // 显示返回键
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-            //清除阴影
+            // 清除阴影
             getSupportActionBar().setElevation(0);
         }
     }

@@ -10,4 +10,9 @@
     <string name="test_n5">N5</string>
 
     <string name="exam">真题：(%1$d)</string>
+
+    <string name="pass_score1">及格：100分</string>
+    <string name="pass_score2">及格：90分</string>
+    <string name="pass_score3">及格：95分</string>
+    <string name="pass_score4">及格：80分</string>
 </resources>
