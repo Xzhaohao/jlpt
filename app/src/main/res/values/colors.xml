@@ -38,4 +38,9 @@
 
     <color name="n5Gradient1">#fa709a</color>
     <color name="n5Gradient2">#fee140</color>
+
+    <color name="input_label">#646566</color>
+    <color name="input_hint">#C8C9CC</color>
+    <color name="bottom_line">#EBEDF0</color>
+    <color name="line">#E5E5E5</color>
 </resources>

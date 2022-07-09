@@ -15,4 +15,6 @@
     <string name="pass_score2">及格：90分</string>
     <string name="pass_score3">及格：95分</string>
     <string name="pass_score4">及格：80分</string>
+
+    <string name="empty_data">暂无数据</string>
 </resources>

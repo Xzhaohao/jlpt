@@ -3,12 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingStart="12dp"
     android:paddingEnd="12dp"
     tools:context=".ui.QuestionActivity">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/questionRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <org.kuro.jlpt.views.EmptyView
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
