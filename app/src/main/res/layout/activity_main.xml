@@ -19,13 +19,8 @@
 
     <RelativeLayout
         android:id="@+id/n1_row"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:background="@drawable/n1_gradient_bg"
-        android:padding="10dp"
-        android:paddingStart="20dp"
-        android:paddingEnd="30dp">
+        style="@style/main_item_relativeLayout"
+        android:background="@drawable/n1_gradient_bg">
 
         <TextView
             android:layout_width="wrap_content"
@@ -36,36 +31,19 @@
 
         <TextView
             android:id="@+id/n1_row_count"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_gravity="bottom"
-            android:text="@string/exam"
-            android:textColor="@color/colorText"
-            android:textSize="@dimen/main_exam_count"
-            tools:ignore="RelativeOverlap" />
+            style="@style/main_item_exam_count" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/main_item_pass_score"
             android:layout_below="@+id/n1_row_count"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="6dp"
-            android:text="@string/pass_score1"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/main_pass_score" />
+            android:text="@string/pass_score1" />
 
     </RelativeLayout>
 
     <RelativeLayout
         android:id="@+id/n2_row"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:background="@drawable/n2_gradient_bg"
-        android:padding="10dp"
-        android:paddingStart="20dp"
-        android:paddingEnd="30dp">
+        style="@style/main_item_relativeLayout"
+        android:background="@drawable/n2_gradient_bg">
 
         <TextView
             android:layout_width="wrap_content"
@@ -76,36 +54,19 @@
 
         <TextView
             android:id="@+id/n2_row_count"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_gravity="bottom"
-            android:text="@string/exam"
-            android:textColor="@color/colorText"
-            android:textSize="@dimen/main_exam_count"
-            tools:ignore="RelativeOverlap" />
+            style="@style/main_item_exam_count" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/main_item_pass_score"
             android:layout_below="@+id/n2_row_count"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="6dp"
-            android:text="@string/pass_score2"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/main_pass_score" />
+            android:text="@string/pass_score2" />
 
     </RelativeLayout>
 
     <RelativeLayout
         android:id="@+id/n3_row"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:background="@drawable/n3_gradient_bg"
-        android:padding="10dp"
-        android:paddingStart="20dp"
-        android:paddingEnd="30dp">
+        style="@style/main_item_relativeLayout"
+        android:background="@drawable/n3_gradient_bg">
 
         <TextView
             android:layout_width="wrap_content"
@@ -116,36 +77,19 @@
 
         <TextView
             android:id="@+id/n3_row_count"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_gravity="bottom"
-            android:text="@string/exam"
-            android:textColor="@color/colorText"
-            android:textSize="@dimen/main_exam_count"
-            tools:ignore="RelativeOverlap" />
+            style="@style/main_item_exam_count" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/main_item_pass_score"
             android:layout_below="@+id/n3_row_count"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="6dp"
-            android:text="@string/pass_score3"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/main_pass_score" />
+            android:text="@string/pass_score3" />
 
     </RelativeLayout>
 
     <RelativeLayout
         android:id="@+id/n4_row"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:background="@drawable/n4_gradient_bg"
-        android:padding="10dp"
-        android:paddingStart="20dp"
-        android:paddingEnd="30dp">
+        style="@style/main_item_relativeLayout"
+        android:background="@drawable/n4_gradient_bg">
 
         <TextView
             android:layout_width="wrap_content"
@@ -156,36 +100,19 @@
 
         <TextView
             android:id="@+id/n4_row_count"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_gravity="bottom"
-            android:text="@string/exam"
-            android:textColor="@color/colorText"
-            android:textSize="@dimen/main_exam_count"
-            tools:ignore="RelativeOverlap" />
+            style="@style/main_item_exam_count" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/main_item_pass_score"
             android:layout_below="@+id/n4_row_count"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="6dp"
-            android:text="@string/pass_score2"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/main_pass_score" />
+            android:text="@string/pass_score2" />
 
     </RelativeLayout>
 
     <RelativeLayout
         android:id="@+id/n5_row"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:background="@drawable/n5_gradient_bg"
-        android:padding="10dp"
-        android:paddingStart="20dp"
-        android:paddingEnd="30dp">
+        style="@style/main_item_relativeLayout"
+        android:background="@drawable/n5_gradient_bg">
 
         <TextView
             android:layout_width="wrap_content"
@@ -196,24 +123,12 @@
 
         <TextView
             android:id="@+id/n5_row_count"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_gravity="bottom"
-            android:text="@string/exam"
-            android:textColor="@color/colorText"
-            android:textSize="@dimen/main_exam_count"
-            tools:ignore="RelativeOverlap" />
+            style="@style/main_item_exam_count" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/main_item_pass_score"
             android:layout_below="@+id/n5_row_count"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="6dp"
-            android:text="@string/pass_score4"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/main_pass_score" />
+            android:text="@string/pass_score4" />
 
     </RelativeLayout>
 

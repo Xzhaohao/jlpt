@@ -29,12 +29,21 @@
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
         <!-- 真题列表 -->
-        <activity android:name=".ui.QuestionActivity" android:exported="false" />
+        <activity
+            android:name=".ui.QuestionActivity"
+            android:exported="false" />
+
+        <!-- 答题页面 -->
+        <activity
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:name=".ui.QuestionDetailActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

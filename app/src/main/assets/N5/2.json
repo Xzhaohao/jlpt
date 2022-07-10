@@ -1,0 +1,43 @@
+[
+  {
+    "belong": "问题1：言葉の読み方として最も良いものを一つ選びなさい。",
+    "list": [
+      {
+        "question": "1. 英語は世界の中で（ ）います",
+        "answerA": "A.話して",
+        "answerB": "B.話させて",
+        "answerC": "C.話られて",
+        "answerD": "D.話されて",
+        "right": "B",
+        "analyze": "解析：先(さき)"
+      },
+      {
+        "question": "2. 【先週】、デパートにかいものにいきました。",
+        "answerA": "A.せんしゅう",
+        "answerB": "B.せんしゅ",
+        "answerC": "C.ぜんしゅう",
+        "answerD": "D.ぜんしゅ",
+        "right": "A",
+        "analyze": "解析：先週(せんしゅう)：上星期，上周。"
+      },
+      {
+        "question": "3. ごはんの【後】でさんぽします。",
+        "answerA": "A.うしろ",
+        "answerB": "B.まえ",
+        "answerC": "C.つぎ",
+        "answerD": "D.あと",
+        "right": "D",
+        "analyze": "解析：後(あと)"
+      },
+      {
+        "question": "4. もういちど【言って】ください。",
+        "answerA": "A.まって",
+        "answerB": "B.いって",
+        "answerC": "C.たって",
+        "answerD": "D.きって",
+        "right": "B",
+        "analyze": "解析：長く(ながく)：长(时间)"
+      }
+    ]
+  }
+]

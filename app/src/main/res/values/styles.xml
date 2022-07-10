@@ -18,4 +18,46 @@
         <item name="android:windowIsTranslucent">true</item>
     </style>
 
+    <!-- 首页Item项样式 —— RelativeLayout -->
+    <style name="main_item_relativeLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+    </style>
+
+    <!-- 首页Item项样式 —— 真题 -->
+    <style name="main_item_exam_count">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:text">@string/exam</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/main_exam_count</item>
+    </style>
+
+    <!-- 首页Item项样式 —— 及格分数 -->
+    <style name="main_item_pass_score">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/main_pass_score</item>
+    </style>
+
+    <!-- 答题选项样式 -->
+    <style name="answer_option">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">42dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:background">@drawable/answer_option_bg</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
 </resources>

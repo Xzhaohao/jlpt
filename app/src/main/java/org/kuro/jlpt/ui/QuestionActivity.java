@@ -41,7 +41,7 @@ public class QuestionActivity extends BaseBackActivity {
             // 给layoutManager 的展示方式设置为竖直方向
             layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
             recyclerView.setLayoutManager(layoutManager);
-            recyclerView.setAdapter(new QuestionAdapter(list));
+            recyclerView.setAdapter(new QuestionAdapter(list, this, paramTitle));
         }
 
     }

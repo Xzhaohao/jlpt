@@ -1,22 +1,43 @@
 [
   {
     "belong": "问题1：言葉の読み方として最も良いものを一つ選びなさい。",
-    "question": "1. どうぞお【先】にお入りください。",
-    "answerA": "A.さけ",
-    "answerB": "B.さき",
-    "answerC": "C.ざき",
-    "answerD": "D.さぎ",
-    "right": "B",
-    "analyze": "解析："
-  },
-  {
-    "belong": "问题1：言葉の読み方として最も良いものを一つ選びなさい。",
-    "question": "2. りょうりは【十分】よういしましたか。",
-    "answerA": "A.じゅうふん",
-    "answerB": "B.じっぷん",
-    "answerC": "C.じゅうぶん",
-    "answerD": "D.じゅぶん",
-    "right": "C",
-    "analyze": "解析："
+    "list": [
+      {
+        "question": "1. どうぞお【先】にお入りください。",
+        "answerA": "A.さけ",
+        "answerB": "B.さき",
+        "answerC": "C.ざき",
+        "answerD": "D.さぎ",
+        "right": "B",
+        "analyze": "解析：先(さき)"
+      },
+      {
+        "question": "2. りょうりは【十分】よういしましたか。",
+        "answerA": "A.じゅうふん",
+        "answerB": "B.じっぷん",
+        "answerC": "C.じゅうぶん",
+        "answerD": "D.じゅぶん",
+        "right": "C",
+        "analyze": "解析：十分(じゅうぶん)：十分，充分，足够，充裕"
+      },
+      {
+        "question": "3. にわの【東】にいけがあります。",
+        "answerA": "A.みなみ",
+        "answerB": "B.きた",
+        "answerC": "C.にし",
+        "answerD": "D.ひがし",
+        "right": "D",
+        "analyze": "解析：東(ひがし)，东，东方。（東方。）"
+      },
+      {
+        "question": "4. かみが【長く】なりました。",
+        "answerA": "A.ながく",
+        "answerB": "B.なげく",
+        "answerC": "C.みじかく",
+        "answerD": "D.みずかく",
+        "right": "A",
+        "analyze": "解析：長く(ながく)：长(时间)"
+      }
+    ]
   }
 ]
