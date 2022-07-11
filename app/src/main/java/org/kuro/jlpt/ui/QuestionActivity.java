@@ -1,6 +1,7 @@
 package org.kuro.jlpt.ui;
 
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -33,15 +34,19 @@ public class QuestionActivity extends BaseBackActivity {
         paramTitle = getIntent().getStringExtra("title");
         setTitle(paramTitle + "真题");
 
+        View emptyView = findViewById(R.id.no_data);
+        RecyclerView recyclerView = findViewById(R.id.questionRecyclerView);
+
         List<Question> list = fetchQuestionList();
         if (list.size() > 0) {
-            RecyclerView recyclerView = findViewById(R.id.questionRecyclerView);
-
             LinearLayoutManager layoutManager = new LinearLayoutManager(this);
             // 给layoutManager 的展示方式设置为竖直方向
             layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
             recyclerView.setLayoutManager(layoutManager);
             recyclerView.setAdapter(new QuestionAdapter(list, this, paramTitle));
+        } else {
+            emptyView.setVisibility(View.VISIBLE);
+            recyclerView.setVisibility(View.GONE);
         }
 
     }

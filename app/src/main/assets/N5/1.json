@@ -1,6 +1,6 @@
 [
   {
-    "belong": "问题1：言葉の読み方として最も良いものを一つ選びなさい。",
+    "belong": "问题1",
     "list": [
       {
         "question": "1. どうぞお【先】にお入りください。",
@@ -37,6 +37,137 @@
         "answerD": "D.みずかく",
         "right": "A",
         "analyze": "解析：長く(ながく)：长(时间)"
+      },
+      {
+        "question": "5. ぎんこうは花やと本やの【間】にあります。",
+        "answerA": "A.あえだ",
+        "answerB": "B.あいだ",
+        "answerC": "C.がん",
+        "answerD": "D.かん",
+        "right": "B",
+        "analyze": "解析："
+      },
+      {
+        "question": "6. どんな【会社】ではたらいていますか。",
+        "answerA": "A.かえじゃ",
+        "answerB": "B.かいじゃ",
+        "answerC": "C.がいしゃ",
+        "answerD": "D.かいしゃ",
+        "right": "D",
+        "analyze": "解析："
+      },
+      {
+        "question": "7. きょうの【午後】はあめがふるでしょう。",
+        "answerA": "A.ごご",
+        "answerB": "B.ここ",
+        "answerC": "C.ごこ",
+        "answerD": "D.こご",
+        "right": "A",
+        "analyze": "解析："
+      },
+      {
+        "question": "8. 【耳】がいたいのでおいしゃさんに行きました。",
+        "answerA": "A.あたま",
+        "answerB": "B.め",
+        "answerC": "C.みみ",
+        "answerD": "D.はな",
+        "right": "C",
+        "analyze": "解析："
+      },
+      {
+        "question": "9. これは【八百】円です。",
+        "answerA": "A.はっひゃく",
+        "answerB": "B.はっぴゃく",
+        "answerC": "C.はちひゃく",
+        "answerD": "D.はちぴゃく",
+        "right": "B",
+        "analyze": "解析："
+      },
+      {
+        "question": "10. きのう【魚】を食べました。",
+        "answerA": "A.さぐな",
+        "answerB": "B.ざかな",
+        "answerC": "C.さがな",
+        "answerD": "D.さかな",
+        "right": "D",
+        "analyze": "解析："
+      },
+      {
+        "question": "11. 【夕食】はレストランに行きましょう。",
+        "answerA": "A.ゆじょく",
+        "answerB": "B.ゆしょく",
+        "answerC": "C.ゆうしょく",
+        "answerD": "D.ゆうじょく",
+        "right": "C",
+        "analyze": "解析："
+      },
+      {
+        "question": "12. 【あなうんさー】がニュースを読んでいます。",
+        "answerA": "A.アナワンサー",
+        "answerB": "B.アナウンサー",
+        "answerC": "C.アメウンサー",
+        "answerD": "D.アナワソサー",
+        "right": "B",
+        "analyze": "解析："
+      }
+    ]
+  },
+  {
+    "belong": "问题2",
+    "list:": [
+      {
+        "question": "13. わたしの【ちち】は６０さいです。",
+        "answerA": "A.火",
+        "answerB": "B.父",
+        "answerC": "C.母",
+        "answerD": "D.丹",
+        "right": "B",
+        "analyze": "解析："
+      },
+      {
+        "question": "14. 【だいがく】に行って先生になりたいです。",
+        "answerA": "A.犬字",
+        "answerB": "B.犬学",
+        "answerC": "C.大字",
+        "answerD": "D.大学",
+        "right": "D",
+        "analyze": "解析："
+      },
+      {
+        "question": "15. ともだちとおんがくを【きい】ています。",
+        "answerA": "A.間",
+        "answerB": "B.聞",
+        "answerC": "C.闇",
+        "answerD": "D.開",
+        "right": "B",
+        "analyze": "解析："
+      },
+      {
+        "question": "16. あたらしいふくを【かい】ます。",
+        "answerA": "A.買い",
+        "answerB": "B.賈い",
+        "answerC": "C.員い",
+        "answerD": "D.賣い",
+        "right": "A",
+        "analyze": "解析："
+      },
+      {
+        "question": "17. きょうは【てんき】がいいです。",
+        "answerA": "A.天氣",
+        "answerB": "B.夫氣",
+        "answerC": "C.天気",
+        "answerD": "D.夫気",
+        "right": "C",
+        "analyze": "解析："
+      },
+      {
+        "question": "18. ワンさんからおもしろい【はなし】をききました。",
+        "answerA": "A.論",
+        "answerB": "B.詣",
+        "answerC": "C.語",
+        "answerD": "D.話",
+        "right": "D",
+        "analyze": "解析："
       }
     ]
   }

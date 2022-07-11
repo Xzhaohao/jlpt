@@ -1,7 +1,6 @@
 package org.kuro.jlpt.ui;
 
 import android.os.Bundle;
-import android.widget.TextView;
 
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -35,8 +34,6 @@ public class QuestionDetailActivity extends BaseUIActivity {
         examId = getIntent().getStringExtra("id");
         paramTitle = getIntent().getStringExtra("title");
 
-        TextView questionNum = findViewById(R.id.question_num);
-
         List<QuestionDetailRes> list = fetchQuestionList();
         if (list.size() > 0) {
             RecyclerView recyclerView = findViewById(R.id.questionDetailRecyclerView);
@@ -45,8 +42,6 @@ public class QuestionDetailActivity extends BaseUIActivity {
             layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
             recyclerView.setLayoutManager(layoutManager);
             recyclerView.setAdapter(new QuestionDetailAdapter(list.get(0).getList()));
-
-            questionNum.setText(list.get(0).getBelong());
         }
     }
 

@@ -51,4 +51,5 @@ dependencies {
     implementation rootProject.ext.dependencies["material"]
     implementation rootProject.ext.dependencies["constraintlayout"]
     implementation rootProject.ext.dependencies["gson"]
+    implementation rootProject.ext.dependencies["tablayout"]
 }
